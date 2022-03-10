@@ -1,0 +1,2 @@
+node_modules/typescript/lib/*
+test/compilation.test.ts

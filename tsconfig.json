@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "./out",
+        "typeRoots": ["./node_modules/@types", "./src/types"],
+    },
+    "references": [
+        {"path": "./scripts"},
+        {"path": "./src"},
+        {"path": "./test"}
+    ],
+
+    // Empty because it there is sometimes data int it when request comes back from child projects
+    // https://www.typescriptlang.org/docs/handbook/project-references.html#overall-structure
+    "files": []
+}

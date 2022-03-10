@@ -1,0 +1,7 @@
+node_modules
+/dist*
+.swc
+# From tsc
+out
+# from swc, the TS compiler
+.swc/
