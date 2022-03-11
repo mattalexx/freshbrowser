@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TypeScript project config file should parse and resolve correctly: scripts 1`] = `
+Object {
+  "compileOnSave": false,
+  "compilerOptions": Object {
+    "outDir": "../out",
+    "rootDir": "..",
+    "typeRoots": Array [
+      "<PROJECT_DIR>/node_modules/@types",
+      "<PROJECT_DIR>/src/types",
+    ],
+  },
+  "files": Array [
+    "./launch-ppt.ts",
+  ],
+  "include": Array [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+  ],
+  "references": Array [
+    Object {
+      "path": "../src",
+    },
+  ],
+}
+`;
+
+exports[`TypeScript project config file should parse and resolve correctly: src 1`] = `
+Object {
+  "compileOnSave": false,
+  "compilerOptions": Object {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": Array [
+      "es2021",
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "../out",
+    "rootDir": "..",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2021",
+    "types": Array [
+      "node",
+      "puppeteer",
+    ],
+  },
+  "exclude": Array [
+    "../out",
+  ],
+  "files": Array [
+    "./data.ts",
+    "./extension.ts",
+    "./prelaunch.ts",
+    "./project.ts",
+    "./types/env-paths/index.d.ts",
+    "./types/unzip-crx-3/index.d.ts",
+  ],
+  "include": Array [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+  ],
+}
+`;
+
+exports[`TypeScript project config file should parse and resolve correctly: test 1`] = `
+Object {
+  "compileOnSave": false,
+  "compilerOptions": Object {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": Array [
+      "es2021",
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "../out",
+    "rootDir": "..",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2021",
+    "types": Array [
+      "node",
+      "jest",
+      "puppeteer",
+    ],
+  },
+  "exclude": Array [
+    "../out",
+  ],
+  "files": Array [
+    "./compilation.test.ts",
+    "./extension.test.ts",
+    "./project.test.ts",
+    "./tsconf.tests.ts",
+    "./support/utils.ts",
+  ],
+  "include": Array [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+  ],
+  "references": Array [
+    Object {
+      "path": "../src",
+    },
+  ],
+}
+`;
